@@ -1,5 +1,5 @@
-from main import soma
+from main import buscar_usuario
 
 
-def test_soma():
-    assert soma(2, 3) == 5
+def test_buscar_usuario():
+    assert callable(buscar_usuario)
